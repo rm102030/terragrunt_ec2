@@ -14,6 +14,8 @@ Ejecute terragrunt init
         terragrunt apply
         terragrunt destroy
 
+Los comandos se deben ejecutar en la "raiz del ambiente" donde esta el archivo terragrunt.hcl
+
 Nota : Importante tener instalado terraform y terragrunt el provider de AWS esta configurado para usar un profile cargue ese profile localmente y lo cambia 
        la ruta es: ~/.aws/credentials
 
